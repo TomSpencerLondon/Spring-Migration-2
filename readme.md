@@ -1,5 +1,13 @@
 # Spring PetClinic Sample Application [![Build Status](https://travis-ci.org/spring-projects/spring-petclinic.png?branch=master)](https://travis-ci.org/spring-projects/spring-petclinic/)
 
+### Migrating from Spring boot 1.5 to 3.0
+First follow this instruction:
+https://github.com/openrewrite/rewrite-testing-frameworks
+
+Then for 2.7 to 3.0 migration follow this:
+https://docs.openrewrite.org/recipes/java/spring/boot3/upgradespringboot_3_0
+
+
 ## Understanding the Spring Petclinic application with a few diagrams
 <a href="https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application">See the presentation here</a>
 
