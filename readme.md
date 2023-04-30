@@ -1,5 +1,9 @@
 # Spring PetClinic Sample Application [![Build Status](https://travis-ci.org/spring-projects/spring-petclinic.png?branch=master)](https://travis-ci.org/spring-projects/spring-petclinic/)
 
+This video is useful for Spring migrations made easy:
+https://www.youtube.com/watch?v=7fslFKkCkxg
+
+
 ### Migrating from Spring boot 1.5 to 3.0
 First follow this instruction:
 https://github.com/openrewrite/rewrite-testing-frameworks
