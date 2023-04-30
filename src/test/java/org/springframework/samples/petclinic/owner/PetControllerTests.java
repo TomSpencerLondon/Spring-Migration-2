@@ -30,10 +30,10 @@ import org.springframework.test.web.servlet.MockMvc;
  * @author Colin But
  */
 @WebMvcTest(value = PetController.class,
-    includeFilters = @ComponentScan.Filter(
-                            value = PetTypeFormatter.class,
-                            type = FilterType.ASSIGNABLE_TYPE))
-public class PetControllerTests {
+        includeFilters = @ComponentScan.Filter(
+                value = PetTypeFormatter.class,
+                type = FilterType.ASSIGNABLE_TYPE))
+class PetControllerTests {
 
     private static final int TEST_OWNER_ID = 1;
     private static final int TEST_PET_ID = 1;
@@ -49,7 +49,7 @@ public class PetControllerTests {
     private OwnerRepository owners;
 
     @BeforeEach
-    public void setup() {
+    void setup() {
         PetType cat = new PetType();
         cat.setId(3);
         cat.setName("hamster");

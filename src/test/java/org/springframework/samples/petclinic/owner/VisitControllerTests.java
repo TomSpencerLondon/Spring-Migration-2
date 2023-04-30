@@ -24,7 +24,7 @@ import org.springframework.test.web.servlet.MockMvc;
  * @author Colin But
  */
 @WebMvcTest(VisitController.class)
-public class VisitControllerTests {
+class VisitControllerTests {
 
     private static final int TEST_PET_ID = 1;
 
@@ -38,7 +38,7 @@ public class VisitControllerTests {
     private PetRepository pets;
 
     @BeforeEach
-    public void init() {
+    void init() {
         given(this.pets.findById(TEST_PET_ID)).willReturn(new Pet());
     }
 

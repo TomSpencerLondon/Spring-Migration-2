@@ -25,7 +25,7 @@ import org.springframework.samples.petclinic.owner.PetTypeFormatter;
  * @author Colin But
  */
 @ExtendWith(MockitoExtension.class)
-public class PetTypeFormatterTests {
+class PetTypeFormatterTests {
 
     @Mock
     private PetRepository pets;
@@ -33,7 +33,7 @@ public class PetTypeFormatterTests {
     private PetTypeFormatter petTypeFormatter;
 
     @BeforeEach
-    public void setup() {
+    void setup() {
         this.petTypeFormatter = new PetTypeFormatter(pets);
     }
 

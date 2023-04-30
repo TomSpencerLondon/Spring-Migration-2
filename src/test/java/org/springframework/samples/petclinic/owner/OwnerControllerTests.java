@@ -26,7 +26,7 @@ import org.springframework.test.web.servlet.MockMvc;
  * @author Colin But
  */
 @WebMvcTest(OwnerController.class)
-public class OwnerControllerTests {
+class OwnerControllerTests {
 
     private static final int TEST_OWNER_ID = 1;
 
@@ -39,7 +39,7 @@ public class OwnerControllerTests {
     private Owner george;
 
     @BeforeEach
-    public void setup() {
+    void setup() {
         george = new Owner();
         george.setId(TEST_OWNER_ID);
         george.setFirstName("George");

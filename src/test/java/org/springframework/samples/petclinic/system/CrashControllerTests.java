@@ -20,7 +20,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  */
 @Disabled
 @WebMvcTest(controllers = CrashController.class)
-public class CrashControllerTests {
+class CrashControllerTests {
 
     @Autowired
     private MockMvc mockMvc;

@@ -24,7 +24,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  * @author Dave Syer
  *
  */
-public class VetTests {
+class VetTests {
 
     @Test
     void testSerialization() {

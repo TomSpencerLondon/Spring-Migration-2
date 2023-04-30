@@ -5,8 +5,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 import java.util.Locale;
 import java.util.Set;
 
-import javax.validation.ConstraintViolation;
-import javax.validation.Validator;
+import jakarta.validation.ConstraintViolation;
+import jakarta.validation.Validator;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.context.i18n.LocaleContextHolder;
@@ -17,7 +17,7 @@ import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
  *         Simple test to make sure that Bean Validation is working
  *         (useful when upgrading to a new version of Hibernate Validator/ Bean Validation)
  */
-public class ValidatorTests {
+class ValidatorTests {
 
     private Validator createValidator() {
         LocalValidatorFactoryBean localValidatorFactoryBean = new LocalValidatorFactoryBean();

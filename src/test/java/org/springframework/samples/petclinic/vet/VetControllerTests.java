@@ -27,7 +27,7 @@ import org.springframework.test.web.servlet.ResultActions;
  * Test class for the {@link VetController}
  */
 @WebMvcTest(VetController.class)
-public class VetControllerTests {
+class VetControllerTests {
 
     @Autowired
     private MockMvc mockMvc;
@@ -36,7 +36,7 @@ public class VetControllerTests {
     private VetRepository vets;
 
     @BeforeEach
-    public void setup() {
+    void setup() {
         Vet james = new Vet();
         james.setFirstName("James");
         james.setLastName("Carter");
