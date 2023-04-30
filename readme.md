@@ -3,6 +3,9 @@
 This video is useful for Spring migrations made easy:
 https://www.youtube.com/watch?v=7fslFKkCkxg
 
+Tim te Beek has also written a blog:
+https://blog.jdriven.com/2022/03/major-migrations-made-easy-with-openrewrite/
+
 
 ### Migrating from Spring boot 1.5 to 3.0
 First follow this instruction:
